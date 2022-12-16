@@ -1,0 +1,1229 @@
+<!-- x-data="{ isOpen: false }"  -->
+
+
+<!-- x-data="{ isOpen: false }"  -->
+<!-- Navbar -->
+<nav class="bg-white shadow dark:bg-gray-800">
+  <div class="container py-4 mx-auto">
+    <div class="grid grid-cols-4">
+      <div class="grid grid-cols-2">
+        <a class="justify-self-center text-2xl font-bold text-gray-800 transition-colors duration-300 transform dark:text-white lg:text-3xl hover:text-gray-700 dark:hover:text-gray-300"
+          href="#">Brand</a>
+        <button
+          class="justify-self-center h-10 px-6 font-semibold rounded-md border bg-cyan-500 hover:bg-cyan-600 text-white"
+          type="button">
+          اضف نشاطك
+        </button>
+      </div>
+
+      <div class="relative mt-4 mx-4 md:mt-0 col-span-2">
+
+        <span class="absolute inset-y-0 left-0 flex items-center pl-3">
+          <svg class="w-5 h-5 text-gray-400" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+            stroke-width="1.5" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+          </svg>
+        </span>
+
+        <input type="text"
+          class="w-full text-right border-cyan-500 py-2 pr-12 pl-4 text-gray-700 bg-white border rounded-lg dark:bg-gray-800 dark:text-gray-300 dark:border-gray-600 focus:border-blue-400 dark:focus:border-blue-300 focus:outline-none focus:ring focus:ring-opacity-40 focus:ring-blue-300">
+
+        <span class="border-l border-cyan-500 absolute inset-y-0 right-0 flex items-center pl-3">
+          <svg class="w-5 h-5 mr-2 text-cyan-500" viewBox="0 0 24 24" fill="none">
+            <path
+              d="M21 21L15 15M17 10C17 13.866 13.866 17 10 17C6.13401 17 3 13.866 3 10C3 6.13401 6.13401 3 10 3C13.866 3 17 6.13401 17 10Z"
+              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+          </svg>
+        </span>
+
+      </div>
+
+      <div class="grid grid-cols-4">
+        <div class="relative col-span-2">
+          <button class="col-span-2 h-10 pl-6 pr-10  font-semibold rounded-md border border-cyan-500 text-cyan-500"
+            type="button">
+            تسجيل الدخول
+          </button>
+          <span class="absolute inset-y-0 mr-4 right-0 flex items-center">
+            <svg class="w-6 h-6 mr-2 text-cyan-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+              stroke-width="1.5" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round"
+                d="M17.982 18.725A7.488 7.488 0 0012 15.75a7.488 7.488 0 00-5.982 2.975m11.963 0a9 9 0 10-11.963 0m11.963 0A8.966 8.966 0 0112 21a8.966 8.966 0 01-5.982-2.275M15 9.75a3 3 0 11-6 0 3 3 0 016 0z" />
+            </svg>
+          </span>
+        </div>
+
+        <a href="#"
+          class="justify-self-end mt-2 mx-2 text-gray-600 transition-colors duration-300 transform dark:text-gray-300 hover:text-gray-500 dark:hover:text-gray-300"
+          aria-label="Facebook">
+          <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" id="flag-icons-gb" viewBox="0 0 640 480">
+            <path fill="#012169" d="M0 0h640v480H0z" />
+            <path fill="#FFF"
+              d="m75 0 244 181L562 0h78v62L400 241l240 178v61h-80L320 301 81 480H0v-60l239-178L0 64V0h75z" />
+            <path fill="#C8102E"
+              d="m424 281 216 159v40L369 281h55zm-184 20 6 35L54 480H0l240-179zM640 0v3L391 191l2-44L590 0h50zM0 0l239 176h-60L0 42V0z" />
+            <path fill="#FFF" d="M241 0v480h160V0H241zM0 160v160h640V160H0z" />
+            <path fill="#C8102E" d="M0 193v96h640v-96H0zM273 0v480h96V0h-96z" />
+          </svg>
+
+        </a>
+
+        <a href="#"
+          class="justify-self-center mt-2 mx-2 text-gray-600 transition-colors duration-300 transform dark:text-gray-300 hover:text-gray-500 dark:hover:text-gray-300"
+          aria-label="Facebook">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+            stroke="currentColor" class="w-6 h-6">
+            <path stroke-linecap="round" stroke-linejoin="round"
+              d="M3.75 5.25h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5" />
+          </svg>
+        </a>
+      </div>
+    </div>
+  </div>
+</nav>
+<!-- Navbar -->
+
+<!-- Slider -->
+<div id="carouselExampleControls" class="carousel slide relative" data-bs-ride="carousel">
+  <div class="carousel-inner relative w-full overflow-hidden">
+    <div class="carousel-item active relative float-left w-full">
+      <img src="https://mdbcdn.b-cdn.net/img/new/slides/041.webp" class="block w-full" alt="Wild Landscape" />
+    </div>
+    <div class="carousel-item relative float-left w-full">
+      <img src="https://mdbcdn.b-cdn.net/img/new/slides/042.webp" class="block w-full" alt="Camera" />
+    </div>
+    <div class="carousel-item relative float-left w-full">
+      <img src="https://mdbcdn.b-cdn.net/img/new/slides/043.webp" class="block w-full" alt="Exotic Fruits" />
+    </div>
+  </div>
+  <button
+    class="carousel-control-prev absolute top-0 bottom-0 flex items-center justify-center p-0 text-center border-0 hover:outline-none hover:no-underline focus:outline-none focus:no-underline left-0"
+    type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon inline-block bg-no-repeat" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button
+    class="carousel-control-next absolute top-0 bottom-0 flex items-center justify-center p-0 text-center border-0 hover:outline-none hover:no-underline focus:outline-none focus:no-underline right-0"
+    type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+    <span class="carousel-control-next-icon inline-block bg-no-repeat" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+<!-- Slider -->
+
+<!-- Circles -->
+<div class="container mx-auto grid grid-cols-8 gap-0">
+
+  <div class="col-start-2 py-24 flex flex-col items-center justify-center space-x-2">
+    <div class="relative w-36 h-36 bg-pink-700 rounded-full flex justify-center items-center text-center p-5">
+    </div>
+    <div class="text-lg pt-6">
+      أسر منتجة
+    </div>
+  </div>
+
+  <div class="py-24 flex flex-col items-center justify-center space-x-2">
+    <div class="relative w-36 h-36 bg-blue-700 rounded-full flex justify-center items-center text-center p-5">
+    </div>
+    <div class="text-lg pt-6">
+      أسواق و مولات
+    </div>
+  </div>
+
+  <div class="py-24 flex flex-col items-center justify-center space-x-2">
+    <div class="relative w-36 h-36 bg-green-700 rounded-full flex justify-center items-center text-center p-5">
+    </div>
+    <div class="text-lg pt-6">
+      وصل حديثا
+    </div>
+  </div>
+  <div class="py-24 flex flex-col items-center justify-center space-x-2">
+    <div class="relative w-36 h-36 bg-orange-400 rounded-full flex justify-center items-center text-center p-5">
+    </div>
+    <div class="text-lg pt-6">
+      أنشطة منخفضه
+    </div>
+  </div>
+  <div class="py-24 flex flex-col items-center justify-center space-x-2">
+    <div class="relative w-36 h-36 bg-yellow-300 rounded-full flex justify-center items-center text-center p-5">
+    </div>
+    <div class="text-lg pt-6">
+      أنشطة مميزة
+    </div>
+  </div>
+  <div class="py-24 flex flex-col items-center justify-center space-x-2">
+    <div class="relative w-36 h-36 bg-gray-300 rounded-full flex justify-center items-center text-center p-5">
+    </div>
+    <div class="text-lg pt-6">
+      جميع الأنشطة
+    </div>
+  </div>
+</div>
+<!-- Circles -->
+
+
+<!-- Cards -->
+<div class="container mx-auto flex justify-between mb-16">
+
+  <div class="flex flex-col mt-4">
+
+    <!-- Title -->
+    <div class="flex justify-end mr-12">
+      <p class="flex items-center mx-4">
+        أنشطة مميزة
+      </p>
+      <span class="relative bg-cyan-500 rounded-full flex p-1">
+        <svg class="w-6 h-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+          stroke-width="1.5" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5L8.25 12l7.5-7.5" />
+        </svg>
+      </span>
+    </div>
+    <!-- Title -->
+
+    <div class="flex">
+
+      <a class="flex items-center cursor-pointer">
+        <span class="relative bg-cyan-500 rounded-full flex p-1">
+          <svg class="w-6 h-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+            stroke-width="1.5" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5L8.25 12l7.5-7.5" />
+          </svg>
+        </span>
+      </a>
+
+      <div class="w-64 mx-4 max-w-sm bg-white rounded-lg shadow-lg dark:bg-gray-800 dark:border-gray-700">
+        <a href="#">
+          <img class="rounded-t-lg" src="https://mdbcdn.b-cdn.net/img/new/slides/041.webp" alt="product image" />
+        </a>
+
+        <div class="px-5 pb-3 mt-4">
+          <div class="flex justify-between">
+
+            <div class="flex items-center">
+              <svg class="w-4 h-4 bg-cyan-500 rounded-full p-0.5 text-white" xmlns="http://www.w3.org/2000/svg"
+                fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" />
+              </svg>
+            </div>
+
+            <div class="text-sm items-center flex">
+              مكدونالدز للوجبات السريعه
+            </div>
+
+            <div class="relative border border-cyan-500 rounded-full flex p-5">
+            </div>
+          </div>
+          <a href="#" class="grid grid-cols-2">
+            <p class="tracking-tight text-gray-900 dark:text-white text-right mr-2 col-start-2 justify-self-start">
+              30 س.ر
+            </p>
+          </a>
+
+          <div class="flex items-center justify-between flex-col pt-6">
+            <a href="#"
+              class="text-white bg-cyan-500 hover:bg-cyan-600 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-cyan-600 dark:hover:bg-cyan-700 dark:focus:ring-cyan-800">
+              الذهاب الى النشاط
+            </a>
+            <span class="text-gray-900 dark:text-white pt-2">أشتراك مدفوع</span>
+          </div>
+
+        </div>
+
+      </div>
+
+      <div class="w-64 mx-4 max-w-sm bg-white rounded-lg shadow-lg dark:bg-gray-800 dark:border-gray-700">
+        <a href="#">
+          <img class="rounded-t-lg" src="https://mdbcdn.b-cdn.net/img/new/slides/041.webp" alt="product image" />
+        </a>
+
+        <div class="px-5 pb-3 mt-4">
+          <div class="flex justify-between">
+
+            <div class="flex items-center">
+              <svg class="w-4 h-4 bg-cyan-500 rounded-full p-0.5 text-white" xmlns="http://www.w3.org/2000/svg"
+                fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" />
+              </svg>
+            </div>
+
+            <div class="text-sm items-center flex">
+              مكدونالدز للوجبات السريعه
+            </div>
+
+            <div class="relative border border-cyan-500 rounded-full flex p-5">
+            </div>
+          </div>
+          <a href="#" class="grid grid-cols-2">
+            <p class="tracking-tight text-gray-900 dark:text-white text-right mr-2 col-start-2 justify-self-start">
+              30 س.ر
+            </p>
+          </a>
+
+          <div class="flex items-center justify-between flex-col pt-6">
+            <a href="#"
+              class="text-white bg-cyan-500 hover:bg-cyan-600 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-cyan-600 dark:hover:bg-cyan-700 dark:focus:ring-cyan-800">
+              الذهاب الى النشاط
+            </a>
+            <span class="text-gray-900 dark:text-white pt-2">أشتراك مدفوع</span>
+          </div>
+
+        </div>
+
+      </div>
+
+      <div class="w-64 mx-4 max-w-sm bg-white rounded-lg shadow-lg dark:bg-gray-800 dark:border-gray-700">
+        <a href="#">
+          <img class="rounded-t-lg" src="https://mdbcdn.b-cdn.net/img/new/slides/041.webp" alt="product image" />
+        </a>
+
+        <div class="px-5 pb-3 mt-4">
+          <div class="flex justify-between">
+
+            <div class="flex items-center">
+              <svg class="w-4 h-4 bg-cyan-500 rounded-full p-0.5 text-white" xmlns="http://www.w3.org/2000/svg"
+                fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" />
+              </svg>
+            </div>
+
+            <div class="text-sm items-center flex">
+              مكدونالدز للوجبات السريعه
+            </div>
+
+            <div class="relative border border-cyan-500 rounded-full flex p-5">
+            </div>
+          </div>
+          <a href="#" class="grid grid-cols-2">
+            <p class="tracking-tight text-gray-900 dark:text-white text-right mr-2 col-start-2 justify-self-start">
+              30 س.ر
+            </p>
+          </a>
+
+          <div class="flex items-center justify-between flex-col pt-6">
+            <a href="#"
+              class="text-white bg-cyan-500 hover:bg-cyan-600 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-cyan-600 dark:hover:bg-cyan-700 dark:focus:ring-cyan-800">
+              الذهاب الى النشاط
+            </a>
+            <span class="text-gray-900 dark:text-white pt-2">أشتراك مدفوع</span>
+          </div>
+
+        </div>
+
+      </div>
+
+      <div class="w-64 mx-4 max-w-sm bg-white rounded-lg shadow-lg dark:bg-gray-800 dark:border-gray-700">
+        <a href="#">
+          <img class="rounded-t-lg" src="https://mdbcdn.b-cdn.net/img/new/slides/041.webp" alt="product image" />
+        </a>
+
+        <div class="px-5 pb-3 mt-4">
+          <div class="flex justify-between">
+
+            <div class="flex items-center">
+              <svg class="w-4 h-4 bg-cyan-500 rounded-full p-0.5 text-white" xmlns="http://www.w3.org/2000/svg"
+                fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" />
+              </svg>
+            </div>
+
+            <div class="text-sm items-center flex">
+              مكدونالدز للوجبات السريعه
+            </div>
+
+            <div class="relative border border-cyan-500 rounded-full flex p-5">
+            </div>
+          </div>
+          <a href="#" class="grid grid-cols-2">
+            <p class="tracking-tight text-gray-900 dark:text-white text-right mr-2 col-start-2 justify-self-start">
+              30 س.ر
+            </p>
+          </a>
+
+          <div class="flex items-center justify-between flex-col pt-6">
+            <a href="#"
+              class="text-white bg-cyan-500 hover:bg-cyan-600 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-cyan-600 dark:hover:bg-cyan-700 dark:focus:ring-cyan-800">
+              الذهاب الى النشاط
+            </a>
+            <span class="text-gray-900 dark:text-white pt-2">أشتراك مدفوع</span>
+          </div>
+
+        </div>
+
+      </div>
+
+      <a class="flex items-center cursor-pointer">
+        <span class="relative bg-cyan-500 rounded-full flex p-1">
+          <svg class="w-6 h-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+            stroke-width="1.5" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+          </svg>
+        </span>
+      </a>
+
+    </div>
+
+  </div>
+
+</div>
+<!-- Cards -->
+
+<!-- Cards -->
+<div class="container mx-auto flex justify-between mb-16">
+
+  <!-- <a class="flex items-center cursor-pointer">
+    <span class="relative bg-cyan-500 rounded-full flex p-1">
+      <svg class="w-6 h-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+        stroke-width="1.5" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5L8.25 12l7.5-7.5" />
+      </svg>
+    </span>
+  </a> -->
+
+  <div class="flex flex-col mt-4">
+
+    <!-- Title -->
+    <div class="flex justify-end mr-12">
+      <p class="flex items-center mx-4">
+        أنشطة مميزة
+      </p>
+      <span class="relative bg-cyan-500 rounded-full flex p-1">
+        <svg class="w-6 h-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+          stroke-width="1.5" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5L8.25 12l7.5-7.5" />
+        </svg>
+      </span>
+    </div>
+    <!-- Title -->
+
+    <div class="flex">
+
+      <a class="flex items-center cursor-pointer">
+        <span class="relative bg-cyan-500 rounded-full flex p-1">
+          <svg class="w-6 h-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+            stroke-width="1.5" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5L8.25 12l7.5-7.5" />
+          </svg>
+        </span>
+      </a>
+
+      <div class="w-64 mx-4 max-w-sm bg-white rounded-lg shadow-lg dark:bg-gray-800 dark:border-gray-700">
+        <a href="#">
+          <img class="rounded-t-lg" src="https://mdbcdn.b-cdn.net/img/new/slides/041.webp" alt="product image" />
+        </a>
+
+        <div class="px-5 pb-3 mt-4">
+          <div class="flex justify-between">
+
+            <div class="flex items-center">
+              <svg class="w-4 h-4 bg-cyan-500 rounded-full p-0.5 text-white" xmlns="http://www.w3.org/2000/svg"
+                fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" />
+              </svg>
+            </div>
+
+            <div class="text-sm items-center flex">
+              مكدونالدز للوجبات السريعه
+            </div>
+
+            <div class="relative border border-cyan-500 rounded-full flex p-5">
+            </div>
+          </div>
+          <a href="#" class="grid grid-cols-2">
+            <p class="tracking-tight text-gray-900 dark:text-white text-right mr-2 col-start-2 justify-self-start">
+              30 س.ر
+            </p>
+          </a>
+
+          <div class="flex items-center justify-between flex-col pt-6">
+            <a href="#"
+              class="text-white bg-cyan-500 hover:bg-cyan-600 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-cyan-600 dark:hover:bg-cyan-700 dark:focus:ring-cyan-800">
+              الذهاب الى النشاط
+            </a>
+            <span class="text-gray-900 dark:text-white pt-2">أشتراك مدفوع</span>
+          </div>
+
+        </div>
+
+      </div>
+
+      <div class="w-64 mx-4 max-w-sm bg-white rounded-lg shadow-lg dark:bg-gray-800 dark:border-gray-700">
+        <a href="#">
+          <img class="rounded-t-lg" src="https://mdbcdn.b-cdn.net/img/new/slides/041.webp" alt="product image" />
+        </a>
+
+        <div class="px-5 pb-3 mt-4">
+          <div class="flex justify-between">
+
+            <div class="flex items-center">
+              <svg class="w-4 h-4 bg-cyan-500 rounded-full p-0.5 text-white" xmlns="http://www.w3.org/2000/svg"
+                fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" />
+              </svg>
+            </div>
+
+            <div class="text-sm items-center flex">
+              مكدونالدز للوجبات السريعه
+            </div>
+
+            <div class="relative border border-cyan-500 rounded-full flex p-5">
+            </div>
+          </div>
+          <a href="#" class="grid grid-cols-2">
+            <p class="tracking-tight text-gray-900 dark:text-white text-right mr-2 col-start-2 justify-self-start">
+              30 س.ر
+            </p>
+          </a>
+
+          <div class="flex items-center justify-between flex-col pt-6">
+            <a href="#"
+              class="text-white bg-cyan-500 hover:bg-cyan-600 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-cyan-600 dark:hover:bg-cyan-700 dark:focus:ring-cyan-800">
+              الذهاب الى النشاط
+            </a>
+            <span class="text-gray-900 dark:text-white pt-2">أشتراك مدفوع</span>
+          </div>
+
+        </div>
+
+      </div>
+
+      <div class="w-64 mx-4 max-w-sm bg-white rounded-lg shadow-lg dark:bg-gray-800 dark:border-gray-700">
+        <a href="#">
+          <img class="rounded-t-lg" src="https://mdbcdn.b-cdn.net/img/new/slides/041.webp" alt="product image" />
+        </a>
+
+        <div class="px-5 pb-3 mt-4">
+          <div class="flex justify-between">
+
+            <div class="flex items-center">
+              <svg class="w-4 h-4 bg-cyan-500 rounded-full p-0.5 text-white" xmlns="http://www.w3.org/2000/svg"
+                fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" />
+              </svg>
+            </div>
+
+            <div class="text-sm items-center flex">
+              مكدونالدز للوجبات السريعه
+            </div>
+
+            <div class="relative border border-cyan-500 rounded-full flex p-5">
+            </div>
+          </div>
+          <a href="#" class="grid grid-cols-2">
+            <p class="tracking-tight text-gray-900 dark:text-white text-right mr-2 col-start-2 justify-self-start">
+              30 س.ر
+            </p>
+          </a>
+
+          <div class="flex items-center justify-between flex-col pt-6">
+            <a href="#"
+              class="text-white bg-cyan-500 hover:bg-cyan-600 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-cyan-600 dark:hover:bg-cyan-700 dark:focus:ring-cyan-800">
+              الذهاب الى النشاط
+            </a>
+            <span class="text-gray-900 dark:text-white pt-2">أشتراك مدفوع</span>
+          </div>
+
+        </div>
+
+      </div>
+
+      <div class="w-64 mx-4 max-w-sm bg-white rounded-lg shadow-lg dark:bg-gray-800 dark:border-gray-700">
+        <a href="#">
+          <img class="rounded-t-lg" src="https://mdbcdn.b-cdn.net/img/new/slides/041.webp" alt="product image" />
+        </a>
+
+        <div class="px-5 pb-3 mt-4">
+          <div class="flex justify-between">
+
+            <div class="flex items-center">
+              <svg class="w-4 h-4 bg-cyan-500 rounded-full p-0.5 text-white" xmlns="http://www.w3.org/2000/svg"
+                fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" />
+              </svg>
+            </div>
+
+            <div class="text-sm items-center flex">
+              مكدونالدز للوجبات السريعه
+            </div>
+
+            <div class="relative border border-cyan-500 rounded-full flex p-5">
+            </div>
+          </div>
+          <a href="#" class="grid grid-cols-2">
+            <p class="tracking-tight text-gray-900 dark:text-white text-right mr-2 col-start-2 justify-self-start">
+              30 س.ر
+            </p>
+          </a>
+
+          <div class="flex items-center justify-between flex-col pt-6">
+            <a href="#"
+              class="text-white bg-cyan-500 hover:bg-cyan-600 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-cyan-600 dark:hover:bg-cyan-700 dark:focus:ring-cyan-800">
+              الذهاب الى النشاط
+            </a>
+            <span class="text-gray-900 dark:text-white pt-2">أشتراك مدفوع</span>
+          </div>
+
+        </div>
+
+      </div>
+
+      <a class="flex items-center cursor-pointer">
+        <span class="relative bg-cyan-500 rounded-full flex p-1">
+          <svg class="w-6 h-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+            stroke-width="1.5" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+          </svg>
+        </span>
+      </a>
+
+    </div>
+
+  </div>
+
+</div>
+<!-- Cards -->
+
+<!-- Cards -->
+<div class="container mx-auto flex justify-between mb-16">
+
+  <!-- <a class="flex items-center cursor-pointer">
+    <span class="relative bg-cyan-500 rounded-full flex p-1">
+      <svg class="w-6 h-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+        stroke-width="1.5" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5L8.25 12l7.5-7.5" />
+      </svg>
+    </span>
+  </a> -->
+
+  <div class="flex flex-col mt-4">
+
+    <!-- Title -->
+    <div class="flex justify-end mr-12">
+      <p class="flex items-center mx-4">
+        أنشطة مميزة
+      </p>
+      <span class="relative bg-cyan-500 rounded-full flex p-1">
+        <svg class="w-6 h-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+          stroke-width="1.5" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5L8.25 12l7.5-7.5" />
+        </svg>
+      </span>
+    </div>
+    <!-- Title -->
+
+    <div class="flex">
+
+      <a class="flex items-center cursor-pointer">
+        <span class="relative bg-cyan-500 rounded-full flex p-1">
+          <svg class="w-6 h-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+            stroke-width="1.5" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5L8.25 12l7.5-7.5" />
+          </svg>
+        </span>
+      </a>
+
+      <div class="w-64 mx-4 max-w-sm bg-white rounded-lg shadow-lg dark:bg-gray-800 dark:border-gray-700">
+        <a href="#">
+          <img class="rounded-t-lg" src="https://mdbcdn.b-cdn.net/img/new/slides/041.webp" alt="product image" />
+        </a>
+
+        <div class="px-5 pb-3 mt-4">
+          <div class="flex justify-between">
+
+            <div class="flex items-center">
+              <svg class="w-4 h-4 bg-cyan-500 rounded-full p-0.5 text-white" xmlns="http://www.w3.org/2000/svg"
+                fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" />
+              </svg>
+            </div>
+
+            <div class="text-sm items-center flex">
+              مكدونالدز للوجبات السريعه
+            </div>
+
+            <div class="relative border border-cyan-500 rounded-full flex p-5">
+            </div>
+          </div>
+          <a href="#" class="grid grid-cols-2">
+            <p class="tracking-tight text-gray-900 dark:text-white text-right mr-2 col-start-2 justify-self-start">
+              30 س.ر
+            </p>
+          </a>
+
+          <div class="flex items-center justify-between flex-col pt-6">
+            <a href="#"
+              class="text-white bg-cyan-500 hover:bg-cyan-600 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-cyan-600 dark:hover:bg-cyan-700 dark:focus:ring-cyan-800">
+              الذهاب الى النشاط
+            </a>
+            <span class="text-gray-900 dark:text-white pt-2">أشتراك مدفوع</span>
+          </div>
+
+        </div>
+
+      </div>
+
+      <div class="w-64 mx-4 max-w-sm bg-white rounded-lg shadow-lg dark:bg-gray-800 dark:border-gray-700">
+        <a href="#">
+          <img class="rounded-t-lg" src="https://mdbcdn.b-cdn.net/img/new/slides/041.webp" alt="product image" />
+        </a>
+
+        <div class="px-5 pb-3 mt-4">
+          <div class="flex justify-between">
+
+            <div class="flex items-center">
+              <svg class="w-4 h-4 bg-cyan-500 rounded-full p-0.5 text-white" xmlns="http://www.w3.org/2000/svg"
+                fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" />
+              </svg>
+            </div>
+
+            <div class="text-sm items-center flex">
+              مكدونالدز للوجبات السريعه
+            </div>
+
+            <div class="relative border border-cyan-500 rounded-full flex p-5">
+            </div>
+          </div>
+          <a href="#" class="grid grid-cols-2">
+            <p class="tracking-tight text-gray-900 dark:text-white text-right mr-2 col-start-2 justify-self-start">
+              30 س.ر
+            </p>
+          </a>
+
+          <div class="flex items-center justify-between flex-col pt-6">
+            <a href="#"
+              class="text-white bg-cyan-500 hover:bg-cyan-600 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-cyan-600 dark:hover:bg-cyan-700 dark:focus:ring-cyan-800">
+              الذهاب الى النشاط
+            </a>
+            <span class="text-gray-900 dark:text-white pt-2">أشتراك مدفوع</span>
+          </div>
+
+        </div>
+
+      </div>
+
+      <div class="w-64 mx-4 max-w-sm bg-white rounded-lg shadow-lg dark:bg-gray-800 dark:border-gray-700">
+        <a href="#">
+          <img class="rounded-t-lg" src="https://mdbcdn.b-cdn.net/img/new/slides/041.webp" alt="product image" />
+        </a>
+
+        <div class="px-5 pb-3 mt-4">
+          <div class="flex justify-between">
+
+            <div class="flex items-center">
+              <svg class="w-4 h-4 bg-cyan-500 rounded-full p-0.5 text-white" xmlns="http://www.w3.org/2000/svg"
+                fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" />
+              </svg>
+            </div>
+
+            <div class="text-sm items-center flex">
+              مكدونالدز للوجبات السريعه
+            </div>
+
+            <div class="relative border border-cyan-500 rounded-full flex p-5">
+            </div>
+          </div>
+          <a href="#" class="grid grid-cols-2">
+            <p class="tracking-tight text-gray-900 dark:text-white text-right mr-2 col-start-2 justify-self-start">
+              30 س.ر
+            </p>
+          </a>
+
+          <div class="flex items-center justify-between flex-col pt-6">
+            <a href="#"
+              class="text-white bg-cyan-500 hover:bg-cyan-600 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-cyan-600 dark:hover:bg-cyan-700 dark:focus:ring-cyan-800">
+              الذهاب الى النشاط
+            </a>
+            <span class="text-gray-900 dark:text-white pt-2">أشتراك مدفوع</span>
+          </div>
+
+        </div>
+
+      </div>
+
+      <div class="w-64 mx-4 max-w-sm bg-white rounded-lg shadow-lg dark:bg-gray-800 dark:border-gray-700">
+        <a href="#">
+          <img class="rounded-t-lg" src="https://mdbcdn.b-cdn.net/img/new/slides/041.webp" alt="product image" />
+        </a>
+
+        <div class="px-5 pb-3 mt-4">
+          <div class="flex justify-between">
+
+            <div class="flex items-center">
+              <svg class="w-4 h-4 bg-cyan-500 rounded-full p-0.5 text-white" xmlns="http://www.w3.org/2000/svg"
+                fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" />
+              </svg>
+            </div>
+
+            <div class="text-sm items-center flex">
+              مكدونالدز للوجبات السريعه
+            </div>
+
+            <div class="relative border border-cyan-500 rounded-full flex p-5">
+            </div>
+          </div>
+          <a href="#" class="grid grid-cols-2">
+            <p class="tracking-tight text-gray-900 dark:text-white text-right mr-2 col-start-2 justify-self-start">
+              30 س.ر
+            </p>
+          </a>
+
+          <div class="flex items-center justify-between flex-col pt-6">
+            <a href="#"
+              class="text-white bg-cyan-500 hover:bg-cyan-600 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-cyan-600 dark:hover:bg-cyan-700 dark:focus:ring-cyan-800">
+              الذهاب الى النشاط
+            </a>
+            <span class="text-gray-900 dark:text-white pt-2">أشتراك مدفوع</span>
+          </div>
+
+        </div>
+
+      </div>
+
+      <a class="flex items-center cursor-pointer">
+        <span class="relative bg-cyan-500 rounded-full flex p-1">
+          <svg class="w-6 h-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+            stroke-width="1.5" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+          </svg>
+        </span>
+      </a>
+
+    </div>
+
+  </div>
+
+</div>
+<!-- Cards -->
+
+<!-- Cards -->
+<div class="container mx-auto flex justify-between mb-16">
+
+  <!-- <a class="flex items-center cursor-pointer">
+    <span class="relative bg-cyan-500 rounded-full flex p-1">
+      <svg class="w-6 h-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+        stroke-width="1.5" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5L8.25 12l7.5-7.5" />
+      </svg>
+    </span>
+  </a> -->
+
+  <div class="flex flex-col mt-4">
+
+    <!-- Title -->
+    <div class="flex justify-end mr-12">
+      <p class="flex items-center mx-4">
+        أنشطة مميزة
+      </p>
+      <span class="relative bg-cyan-500 rounded-full flex p-1">
+        <svg class="w-6 h-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+          stroke-width="1.5" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5L8.25 12l7.5-7.5" />
+        </svg>
+      </span>
+    </div>
+    <!-- Title -->
+
+    <div class="flex">
+
+      <a class="flex items-center cursor-pointer">
+        <span class="relative bg-cyan-500 rounded-full flex p-1">
+          <svg class="w-6 h-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+            stroke-width="1.5" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5L8.25 12l7.5-7.5" />
+          </svg>
+        </span>
+      </a>
+
+      <div class="w-64 mx-4 max-w-sm bg-white rounded-lg shadow-lg dark:bg-gray-800 dark:border-gray-700">
+        <a href="#">
+          <img class="rounded-t-lg" src="https://mdbcdn.b-cdn.net/img/new/slides/041.webp" alt="product image" />
+        </a>
+
+        <div class="px-5 pb-3 mt-4">
+          <div class="flex justify-between">
+
+            <div class="flex items-center">
+              <svg class="w-4 h-4 bg-cyan-500 rounded-full p-0.5 text-white" xmlns="http://www.w3.org/2000/svg"
+                fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" />
+              </svg>
+            </div>
+
+            <div class="text-sm items-center flex">
+              مكدونالدز للوجبات السريعه
+            </div>
+
+            <div class="relative border border-cyan-500 rounded-full flex p-5">
+            </div>
+          </div>
+          <a href="#" class="grid grid-cols-2">
+            <p class="tracking-tight text-gray-900 dark:text-white text-right mr-2 col-start-2 justify-self-start">
+              30 س.ر
+            </p>
+          </a>
+
+          <div class="flex items-center justify-between flex-col pt-6">
+            <a href="#"
+              class="text-white bg-cyan-500 hover:bg-cyan-600 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-cyan-600 dark:hover:bg-cyan-700 dark:focus:ring-cyan-800">
+              الذهاب الى النشاط
+            </a>
+            <span class="text-gray-900 dark:text-white pt-2">أشتراك مدفوع</span>
+          </div>
+
+        </div>
+
+      </div>
+
+      <div class="w-64 mx-4 max-w-sm bg-white rounded-lg shadow-lg dark:bg-gray-800 dark:border-gray-700">
+        <a href="#">
+          <img class="rounded-t-lg" src="https://mdbcdn.b-cdn.net/img/new/slides/041.webp" alt="product image" />
+        </a>
+
+        <div class="px-5 pb-3 mt-4">
+          <div class="flex justify-between">
+
+            <div class="flex items-center">
+              <svg class="w-4 h-4 bg-cyan-500 rounded-full p-0.5 text-white" xmlns="http://www.w3.org/2000/svg"
+                fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" />
+              </svg>
+            </div>
+
+            <div class="text-sm items-center flex">
+              مكدونالدز للوجبات السريعه
+            </div>
+
+            <div class="relative border border-cyan-500 rounded-full flex p-5">
+            </div>
+          </div>
+          <a href="#" class="grid grid-cols-2">
+            <p class="tracking-tight text-gray-900 dark:text-white text-right mr-2 col-start-2 justify-self-start">
+              30 س.ر
+            </p>
+          </a>
+
+          <div class="flex items-center justify-between flex-col pt-6">
+            <a href="#"
+              class="text-white bg-cyan-500 hover:bg-cyan-600 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-cyan-600 dark:hover:bg-cyan-700 dark:focus:ring-cyan-800">
+              الذهاب الى النشاط
+            </a>
+            <span class="text-gray-900 dark:text-white pt-2">أشتراك مدفوع</span>
+          </div>
+
+        </div>
+
+      </div>
+
+      <div class="w-64 mx-4 max-w-sm bg-white rounded-lg shadow-lg dark:bg-gray-800 dark:border-gray-700">
+        <a href="#">
+          <img class="rounded-t-lg" src="https://mdbcdn.b-cdn.net/img/new/slides/041.webp" alt="product image" />
+        </a>
+
+        <div class="px-5 pb-3 mt-4">
+          <div class="flex justify-between">
+
+            <div class="flex items-center">
+              <svg class="w-4 h-4 bg-cyan-500 rounded-full p-0.5 text-white" xmlns="http://www.w3.org/2000/svg"
+                fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" />
+              </svg>
+            </div>
+
+            <div class="text-sm items-center flex">
+              مكدونالدز للوجبات السريعه
+            </div>
+
+            <div class="relative border border-cyan-500 rounded-full flex p-5">
+            </div>
+          </div>
+          <a href="#" class="grid grid-cols-2">
+            <p class="tracking-tight text-gray-900 dark:text-white text-right mr-2 col-start-2 justify-self-start">
+              30 س.ر
+            </p>
+          </a>
+
+          <div class="flex items-center justify-between flex-col pt-6">
+            <a href="#"
+              class="text-white bg-cyan-500 hover:bg-cyan-600 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-cyan-600 dark:hover:bg-cyan-700 dark:focus:ring-cyan-800">
+              الذهاب الى النشاط
+            </a>
+            <span class="text-gray-900 dark:text-white pt-2">أشتراك مدفوع</span>
+          </div>
+
+        </div>
+
+      </div>
+
+      <div class="w-64 mx-4 max-w-sm bg-white rounded-lg shadow-lg dark:bg-gray-800 dark:border-gray-700">
+        <a href="#">
+          <img class="rounded-t-lg" src="https://mdbcdn.b-cdn.net/img/new/slides/041.webp" alt="product image" />
+        </a>
+
+        <div class="px-5 pb-3 mt-4">
+          <div class="flex justify-between">
+
+            <div class="flex items-center">
+              <svg class="w-4 h-4 bg-cyan-500 rounded-full p-0.5 text-white" xmlns="http://www.w3.org/2000/svg"
+                fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" />
+              </svg>
+            </div>
+
+            <div class="text-sm items-center flex">
+              مكدونالدز للوجبات السريعه
+            </div>
+
+            <div class="relative border border-cyan-500 rounded-full flex p-5">
+            </div>
+          </div>
+          <a href="#" class="grid grid-cols-2">
+            <p class="tracking-tight text-gray-900 dark:text-white text-right mr-2 col-start-2 justify-self-start">
+              30 س.ر
+            </p>
+          </a>
+
+          <div class="flex items-center justify-between flex-col pt-6">
+            <a href="#"
+              class="text-white bg-cyan-500 hover:bg-cyan-600 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-cyan-600 dark:hover:bg-cyan-700 dark:focus:ring-cyan-800">
+              الذهاب الى النشاط
+            </a>
+            <span class="text-gray-900 dark:text-white pt-2">أشتراك مدفوع</span>
+          </div>
+
+        </div>
+
+      </div>
+
+      <a class="flex items-center cursor-pointer">
+        <span class="relative bg-cyan-500 rounded-full flex p-1">
+          <svg class="w-6 h-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+            stroke-width="1.5" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+          </svg>
+        </span>
+      </a>
+
+    </div>
+
+  </div>
+
+</div>
+<!-- Cards -->
+
+<!-- Cards -->
+<div class="container mx-auto flex justify-between mb-16">
+
+  <!-- <a class="flex items-center cursor-pointer">
+    <span class="relative bg-cyan-500 rounded-full flex p-1">
+      <svg class="w-6 h-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+        stroke-width="1.5" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5L8.25 12l7.5-7.5" />
+      </svg>
+    </span>
+  </a> -->
+
+  <div class="flex flex-col mt-4">
+
+    <!-- Title -->
+    <div class="flex justify-end mr-12">
+      <p class="flex items-center mx-4">
+        أنشطة مميزة
+      </p>
+      <span class="relative bg-cyan-500 rounded-full flex p-1">
+        <svg class="w-6 h-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+          stroke-width="1.5" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5L8.25 12l7.5-7.5" />
+        </svg>
+      </span>
+    </div>
+    <!-- Title -->
+
+    <div class="flex">
+
+      <a class="flex items-center cursor-pointer">
+        <span class="relative bg-cyan-500 rounded-full flex p-1">
+          <svg class="w-6 h-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+            stroke-width="1.5" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5L8.25 12l7.5-7.5" />
+          </svg>
+        </span>
+      </a>
+
+      <div class="w-64 mx-4 max-w-sm bg-white rounded-lg shadow-lg dark:bg-gray-800 dark:border-gray-700">
+        <a href="#">
+          <img class="rounded-t-lg" src="https://mdbcdn.b-cdn.net/img/new/slides/041.webp" alt="product image" />
+        </a>
+
+        <div class="px-5 pb-3 mt-4">
+          <div class="flex justify-between">
+
+            <div class="flex items-center">
+              <svg class="w-4 h-4 bg-cyan-500 rounded-full p-0.5 text-white" xmlns="http://www.w3.org/2000/svg"
+                fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" />
+              </svg>
+            </div>
+
+            <div class="text-sm items-center flex">
+              مكدونالدز للوجبات السريعه
+            </div>
+
+            <div class="relative border border-cyan-500 rounded-full flex p-5">
+            </div>
+          </div>
+          <a href="#" class="grid grid-cols-2">
+            <p class="tracking-tight text-gray-900 dark:text-white text-right mr-2 col-start-2 justify-self-start">
+              30 س.ر
+            </p>
+          </a>
+
+          <div class="flex items-center justify-between flex-col pt-6">
+            <a href="#"
+              class="text-white bg-cyan-500 hover:bg-cyan-600 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-cyan-600 dark:hover:bg-cyan-700 dark:focus:ring-cyan-800">
+              الذهاب الى النشاط
+            </a>
+            <span class="text-gray-900 dark:text-white pt-2">أشتراك مدفوع</span>
+          </div>
+
+        </div>
+
+      </div>
+
+      <div class="w-64 mx-4 max-w-sm bg-white rounded-lg shadow-lg dark:bg-gray-800 dark:border-gray-700">
+        <a href="#">
+          <img class="rounded-t-lg" src="https://mdbcdn.b-cdn.net/img/new/slides/041.webp" alt="product image" />
+        </a>
+
+        <div class="px-5 pb-3 mt-4">
+          <div class="flex justify-between">
+
+            <div class="flex items-center">
+              <svg class="w-4 h-4 bg-cyan-500 rounded-full p-0.5 text-white" xmlns="http://www.w3.org/2000/svg"
+                fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" />
+              </svg>
+            </div>
+
+            <div class="text-sm items-center flex">
+              مكدونالدز للوجبات السريعه
+            </div>
+
+            <div class="relative border border-cyan-500 rounded-full flex p-5">
+            </div>
+          </div>
+          <a href="#" class="grid grid-cols-2">
+            <p class="tracking-tight text-gray-900 dark:text-white text-right mr-2 col-start-2 justify-self-start">
+              30 س.ر
+            </p>
+          </a>
+
+          <div class="flex items-center justify-between flex-col pt-6">
+            <a href="#"
+              class="text-white bg-cyan-500 hover:bg-cyan-600 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-cyan-600 dark:hover:bg-cyan-700 dark:focus:ring-cyan-800">
+              الذهاب الى النشاط
+            </a>
+            <span class="text-gray-900 dark:text-white pt-2">أشتراك مدفوع</span>
+          </div>
+
+        </div>
+
+      </div>
+
+      <div class="w-64 mx-4 max-w-sm bg-white rounded-lg shadow-lg dark:bg-gray-800 dark:border-gray-700">
+        <a href="#">
+          <img class="rounded-t-lg" src="https://mdbcdn.b-cdn.net/img/new/slides/041.webp" alt="product image" />
+        </a>
+
+        <div class="px-5 pb-3 mt-4">
+          <div class="flex justify-between">
+
+            <div class="flex items-center">
+              <svg class="w-4 h-4 bg-cyan-500 rounded-full p-0.5 text-white" xmlns="http://www.w3.org/2000/svg"
+                fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" />
+              </svg>
+            </div>
+
+            <div class="text-sm items-center flex">
+              مكدونالدز للوجبات السريعه
+            </div>
+
+            <div class="relative border border-cyan-500 rounded-full flex p-5">
+            </div>
+          </div>
+          <a href="#" class="grid grid-cols-2">
+            <p class="tracking-tight text-gray-900 dark:text-white text-right mr-2 col-start-2 justify-self-start">
+              30 س.ر
+            </p>
+          </a>
+
+          <div class="flex items-center justify-between flex-col pt-6">
+            <a href="#"
+              class="text-white bg-cyan-500 hover:bg-cyan-600 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-cyan-600 dark:hover:bg-cyan-700 dark:focus:ring-cyan-800">
+              الذهاب الى النشاط
+            </a>
+            <span class="text-gray-900 dark:text-white pt-2">أشتراك مدفوع</span>
+          </div>
+
+        </div>
+
+      </div>
+
+      <div class="w-64 mx-4 max-w-sm bg-white rounded-lg shadow-lg dark:bg-gray-800 dark:border-gray-700">
+        <a href="#">
+          <img class="rounded-t-lg" src="https://mdbcdn.b-cdn.net/img/new/slides/041.webp" alt="product image" />
+        </a>
+
+        <div class="px-5 pb-3 mt-4">
+          <div class="flex justify-between">
+
+            <div class="flex items-center">
+              <svg class="w-4 h-4 bg-cyan-500 rounded-full p-0.5 text-white" xmlns="http://www.w3.org/2000/svg"
+                fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" />
+              </svg>
+            </div>
+
+            <div class="text-sm items-center flex">
+              مكدونالدز للوجبات السريعه
+            </div>
+
+            <div class="relative border border-cyan-500 rounded-full flex p-5">
+            </div>
+          </div>
+          <a href="#" class="grid grid-cols-2">
+            <p class="tracking-tight text-gray-900 dark:text-white text-right mr-2 col-start-2 justify-self-start">
+              30 س.ر
+            </p>
+          </a>
+
+          <div class="flex items-center justify-between flex-col pt-6">
+            <a href="#"
+              class="text-white bg-cyan-500 hover:bg-cyan-600 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-cyan-600 dark:hover:bg-cyan-700 dark:focus:ring-cyan-800">
+              الذهاب الى النشاط
+            </a>
+            <span class="text-gray-900 dark:text-white pt-2">أشتراك مدفوع</span>
+          </div>
+
+        </div>
+
+      </div>
+
+      <a class="flex items-center cursor-pointer">
+        <span class="relative bg-cyan-500 rounded-full flex p-1">
+          <svg class="w-6 h-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+            stroke-width="1.5" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+          </svg>
+        </span>
+      </a>
+
+    </div>
+
+  </div>
+
+</div>
+<!-- Cards -->
